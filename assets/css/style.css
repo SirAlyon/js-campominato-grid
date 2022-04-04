@@ -10,3 +10,31 @@
     align-items: center;
     padding-right: 1rem;
 }
+
+.cell{
+    background-color: red;
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-width-10{
+    width: 10%;
+}
+
+.cell-width-9{
+    width: calc(100% / 9)
+}
+
+.cell-width-7{
+    width: calc(100% / 7)
+}
+
+
+.cells{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
