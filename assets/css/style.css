@@ -32,6 +32,9 @@
     width: calc(100% / 7)
 }
 
+.active{
+    background-color: blue;!important
+}
 
 .cells{
     width: 100%;
