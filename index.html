@@ -10,27 +10,32 @@
 </head>
 <body>
 
-    <header id="site_header">
+    <header id="site_header" class="px-5 container">
+
+        <div class="logo d-flex align-items-center">
+            <img id="logo" src="./assets/img/photo_2022-04-04_14-08-55.jpg" alt="">
+            <h2 class="fw-bold">Campo Minato</h2>
+        </div>
 
         <div class="select">
             
-            <label for="difficulty">Difficoltà</label>
+            <label for="difficulty">Difficoltà:</label>
 
             <select name="difficulties" id="difficulty">
                 <option>Easy</option> 
                 <option>Medium</option> 
                 <option>Hard</option>
             </select>
-            <button type="submit">Play</button>
+            <button type="submit" id="submit" class="btn btn-primary">Play</button>
         </div>
  
     </header>
 
 
 
-    <main id="site_main">
+    <main id="site_main" class="py-5 body-c-height">
         <div class="container d-flex justify-content-center">
-            <div class="cells">
+            <div class="cells" id="clear">
                 
             </div>
         </div>
@@ -38,7 +43,11 @@
 
 
 
-    <footer id="site_footer"></footer>
+    <footer id="site_footer">
+        <div class="container px-5">
+            Made with &hearts; by <a href="">Boolean</a>
+        </div>
+    </footer>
 
 
 
