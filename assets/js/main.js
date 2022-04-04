@@ -31,8 +31,6 @@ document.getElementById('submit').addEventListener('click', function(){
 })
 
 
-
- 
 //Inserisco i numeri generati nei in modo casuale nelle celle
 function cellsContent(select, min, max) {
     const cellsContent = allCells(select)
